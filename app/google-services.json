@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "996471538484",
+    "firebase_url": "https://bbomi-lkwkci.firebaseio.com",
+    "project_id": "bbomi-lkwkci",
+    "storage_bucket": "bbomi-lkwkci.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996471538484:android:e90c360f2a494b89",
+        "android_client_info": {
+          "package_name": "andbook.example.bbomi_beta_version3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996471538484-rltsf455bl2ff0soqnpofhr2egq8ln16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "andbook.example.bbomi_beta_version3",
+            "certificate_hash": "d0e3b9fc41e61a0c0f5fec4269951105f65c1123"
+          }
+        },
+        {
+          "client_id": "996471538484-naolr7he1g5bd7r7e47lvi5t2514uuom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLVvz102Pqo0ZM-tLbHMQ022kZIBiU_M0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996471538484-naolr7he1g5bd7r7e47lvi5t2514uuom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

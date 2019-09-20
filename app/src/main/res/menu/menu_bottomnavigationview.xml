@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/task"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="과업수행"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/result"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="수행결과"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/edit"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="일정변경"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/settingtask"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="절차수정"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/connect"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="설정"
+        app:showAsAction="ifRoom"/>
+</menu>

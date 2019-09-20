@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#D8EAE7"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="445dp"
+        android:layout_marginLeft="50dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/mainround"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="40dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/bbomilogo"
+            android:layout_marginBottom="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Therapeutic Companion Bot"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="#FF4108"
+                android:gravity="center"
+                android:layout_gravity="center"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="뽀 미"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textColor="#FF4108"
+                android:gravity="center"
+                android:layout_gravity="center"
+            />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

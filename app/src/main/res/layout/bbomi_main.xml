@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F4F4">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/defaultbackground">
+        <LinearLayout
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/t1"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="과업 고르기"
+                android:textSize="35sp"
+                android:layout_marginLeft="40dp"
+                android:textStyle="bold"
+                android:textColor="#F8CB4A"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:id="@+id/bbomi_text"
+                android:text="@string/bbomi_explain1"
+                android:textColor="#ffffff"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+        <TableLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:paddingBottom="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableRow>
+                <FrameLayout
+                    android:id="@+id/task1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/taskview"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="아침에 스스로\n일어나기"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="12dp"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/wakeup" />
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/task2"
+                    android:layout_width="0dp"
+                    android:background="@drawable/taskview"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="집에 오면 신발\n정리하기"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="12dp"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/shose" />
+
+                </FrameLayout>
+            </TableRow>
+
+            <TableRow>
+                <FrameLayout
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/task3"
+                    android:background="@drawable/taskview"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="알림장 식탁에\n올려두기"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="12dp"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/note" />
+
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/task4"
+                    android:background="@drawable/taskview"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="집에 오면 혼자\n옷 갈아입기"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="12dp"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/wear" />
+
+                </FrameLayout>
+            </TableRow>
+
+            <TableRow>
+                <FrameLayout
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/task5"
+                    android:background="@drawable/taskview"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="내일 학교 갈\n준비하기"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="12dp"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/bag" />
+
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/task6"
+                    android:background="@drawable/taskview"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="저녁에 핸드폰\n내기"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="12dp"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/phone" />
+
+                </FrameLayout>
+            </TableRow>
+
+            <TableRow>
+                <FrameLayout
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/task7"
+                    android:background="@drawable/taskview"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="2분 동안\n양치질 하기"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="12dp"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/brush" />
+
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/task8"
+                    android:background="@drawable/taskview"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="장난감 정리하기"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="12dp"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/block" />
+
+                </FrameLayout>
+            </TableRow>
+
+            <TableRow>
+                <FrameLayout
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/task9"
+                    android:background="@drawable/taskview"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="정해진 시간 만큼\n텔레비전 보기"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="12dp"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="55dp"
+                        android:maxWidth="55dp"
+                        android:src="@drawable/tv" />
+
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/task10"
+                    android:background="@drawable/taskview"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="혼자 숙제 하기"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="12dp"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"
+                        android:maxHeight="60dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/homework" />
+
+                </FrameLayout>
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+</LinearLayout>

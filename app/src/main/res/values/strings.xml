@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">뽀미</string>
+
+    <string name="bbomi_explain1">8주 동안 뽀미와 진행할 <b>과업 6가지</b>를 \n<b>아이와 엄마가 함께 선택해주세요.</b> </string>
+    <string name="bbomi_explain2">우와! 오늘부터 뽀미와 8주 동안 매일\n함께 할 <b>과업 6가지를 선택하였어요!</b> </string>
+    <string name="taskselectDone">과업 선택을 완료했어요!</string>
+</resources>

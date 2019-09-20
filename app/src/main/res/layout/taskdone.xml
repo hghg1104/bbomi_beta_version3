@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F4F4">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/defaultbackground">
+        <LinearLayout
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/t1"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="과업 선정"
+                android:textSize="35sp"
+                android:layout_marginLeft="40dp"
+                android:textStyle="bold"
+                android:textColor="#F8CB4A"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:id="@+id/bbomi_text"
+                android:text="@string/bbomi_explain2"
+                android:textColor="#ffffff"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="오늘부터 2주 동안\n뽀미와 함께 진행할 과업 3가지예요."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="#FFCA19" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="[OO월 OO일 ~ OO월 OO일]"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/Donetask1"
+                    android:layout_width="170dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginRight="140dp"
+
+                    android:background="@drawable/taskview"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="아침에 스스로\n일어나기"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginBottom="10dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="60dp"
+                        android:maxHeight="60dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/wakeup" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/Donetask2"
+                    android:layout_width="170dp"
+
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="140dp"
+
+                    android:background="@drawable/taskview"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="아침에 스스로\n일어나기"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginBottom="10dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="60dp"
+                        android:maxHeight="60dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/wakeup" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/Donetask3"
+                    android:layout_width="170dp"
+
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="140dp"
+                    android:background="@drawable/taskview"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="아침에 스스로\n일어나기"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginBottom="10dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="60dp"
+                        android:maxHeight="60dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/wakeup" />
+                </FrameLayout>
+            </LinearLayout>
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/donebtn"
+                android:text="시작하기       →"
+                android:textStyle="bold"
+                android:paddingLeft="50dp"
+                android:paddingRight="20dp"
+                android:layout_gravity="right"
+                android:textColor="#ffffff"/>
+       </LinearLayout>
+    </ScrollView>
+</LinearLayout>
